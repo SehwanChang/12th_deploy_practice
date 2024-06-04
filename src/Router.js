@@ -15,6 +15,7 @@ function Router() {
       
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/test" element={<Login />} />
         <Route path="/writePost" element={<WritePost />} />
         <Route path="/login" element={<Login />} />
         <Route path="/post/:postid" element={<PostDetail />} />
